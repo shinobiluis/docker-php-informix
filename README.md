@@ -4,10 +4,12 @@
  
 Para la generación del paquete se requieren los siguientes paquetes:
 
-* [ibm.csdk.4.50.FC1.LNX.tar](https://drive.google.com/file/d/1prZ_MxgspKj26oYEAi2eXfamgJVAGecX/view?usp=sharing) Para este paquete toma en cuenta el apartado de abajo. 
-* [PDO_INFORMIX-1.3.3.tgz](https://drive.google.com/file/d/1fW8D3eiJt1shjC5ka-cBZaQf9gUAbHn6/view?usp=sharing)
+* [ibm.csdk.4.50.FC1.LNX.tar](https://drive.google.com/file/d/1prZ_MxgspKj26oYEAi2eXfamgJVAGecX/view?usp=sharing) Para este paquete toma en cuenta el apartado de abajo. Este archivo se debe colocar en una carpeta llamada **ibm**. en raiz de este proyecto.
+* [PDO_INFORMIX-1.3.3.tgz](https://drive.google.com/file/d/1fW8D3eiJt1shjC5ka-cBZaQf9gUAbHn6/view?usp=sharing) Este archivo se debe colocar en una carpeta llamada **pdo**. en raiz de este proyecto.
 
 Los links son drive espero nunca se borren esos paquetes en caso de que eso pase los podras descargar de la página de [IBM](http://www-306.ibm.com/software/data/informix/tools/csdk/) 🧟  🧟‍♂️  🧟‍♀️.
+
+
 
 ### IBM CSDK
 
