@@ -18,3 +18,13 @@ Lamentablemente el paquete `ibm.csdk.4.50.FC1.LNX.tar` pesa casi **200 MEGAS**, 
 Usa el link de descarga del paquete de **ibm.csdk.4.50.FC1.LNX.tar**, en cuanto descargues coloca ese paquete en la carpeta **ibm**. Recuerda no cambiar el nombre o la extensión ya que la instalación se hace con ese mismo archivo.
 
 [ibm.csdk.4.50.FC1.LNX.tar](https://drive.google.com/file/d/1prZ_MxgspKj26oYEAi2eXfamgJVAGecX/view?usp=sharing)
+
+# Levantando el docker
+
+En tu terminal dirígete a la raíz de este proyecto donde debes ver el archivo **Dockerfile** y **docker-compose.yml**, si no estás en esa carpeta ya te pasaste y debes dar vuelta en el siguiente retorno 😅.
+
+Si ya descargaste e **csdk** ya solo tienes que iniciar la creación de la imagen:
+
+`docker-compose up -d --build`
+
+El proceso de la creación es muy tardado si gustas ve por un café ☕️ y convive con las personas que dicen ser tu familia 👨‍👩‍👧‍👦, espero que te caigan bien.
