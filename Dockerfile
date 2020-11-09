@@ -21,5 +21,8 @@ RUN echo 'extension=pdo_informix.so' | tee -a /usr/local/etc/php/conf.d/pdo_info
 
 RUN echo "export INFORMIXDIR=/opt/IBM/informix" >> /etc/apache2/envvars
 RUN echo "export LD_LIBRARY_PATH=/opt/IBM/informix/lib:/opt/IBM/informix/lib/esql:/opt/IBM/informix/lib/cli:/opt/IBM/informix/lib/c++:/opt/IBM/informix/lib/client:/opt/IBM/informix/lib/dmi" >> /etc/apache2/envvars
-
+# Se agrego el rewrite del apache para funcionar con laravel (rutas)
+RUN a2enmod rewrite
+# RUN service apache2 restart
+WORKDIR /var/www/html
 CMD apachectl -D FOREGROUND
